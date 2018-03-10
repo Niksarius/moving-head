@@ -1,0 +1,88 @@
+div.main {
+    width: 150px;
+    height:230px;
+    position:fixed;
+    background-size: cover;
+}
+
+div.head{
+    width: 150px;
+    height:230px;
+    background-image: url('/assets/img/head.png'); 
+    background-size: cover;
+}
+
+div.bkg{
+    width: 100%;
+    height: 100vh;
+}
+
+div.counter{
+    color: mediumseagreen;
+    font-size: 40px;
+    padding-left: 10px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+}
+
+div.fail-counter{
+    padding-left: 10px;
+    color: red;
+    font-size: 40px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+}
+
+div.auch{
+    width: 170px;
+    height: 135px;
+    position: absolute;
+    top: 58px;
+    left: 96px;
+    background-image: url(/assets/img/window.png);
+    background-size: cover;
+}
+div.inner{
+    font-size: 40px;
+    top: 28px;
+    position: absolute;
+    left: 39px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+    -o-user-select:none;
+}
+div.boom{
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/img/boom.gif);
+    background-size: cover;
+}
+
+div.legs{
+    width: 170px;
+    height: 150px;
+    position: relative;
+    top: -62px;
+    left: -4px;
+    font-size: 67px;
+    background-image: url(/assets/img/gif.gif);
+    background-size: cover;
+    z-index: -13;
+}
+
+.rotate {
+    animation: spin 1s linear;
+}
+
+@keyframes spin {
+	0%  {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}	
+}

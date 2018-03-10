@@ -1,0 +1,15 @@
+<div class="main" (mousedown)="onClick()" [class.rotate]="!auchVar">
+    <div class="head" *ngIf="boomHidden"></div>
+    <div class="auch" [hidden]="auchVar" *ngIf="boomHidden">
+        <div class="inner">Ой!!!</div>
+    </div>
+    <div class="auch" [hidden]="hahaVar" *ngIf="boomHidden">
+        <div class="inner">Xax!!!</div>
+    </div>
+    <div class="legs" *ngIf="boomHidden"></div>
+</div>
+<div class="bkg" (mousedown)="onFailClick()">
+    <div class="boom" *ngIf="!boomHidden"></div>
+    <div class="counter" *ngIf="boomHidden">{{counter}}</div>
+    <div class="fail-counter" *ngIf="boomHidden">{{failCounter}}</div>
+</div>
